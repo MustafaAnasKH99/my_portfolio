@@ -1,0 +1,8 @@
+Colors code:
+
+#fc0853 Dark Rose
+#54e0e3 Light Green
+#060607 Black
+#181818 Lighter black
+#252627 Dark grey
+#12a994 Dark Green
