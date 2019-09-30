@@ -1,12 +1,13 @@
-import React from 'react';
+import React from 'react'
 
-import './bulma.css';
-import './main.css';
+import './bulma.css'
+import './main.css'
 
-import Profile from './profile';
-import DevLogo from './dev.svg'
-import About from './about';
-import Timer from './timer';
+import Profile from './profile'
+import About from './about'
+import Timer from './timer'
+import Links from './Links'
+
 
 function App() {
   return (
@@ -18,44 +19,9 @@ function App() {
         <div className="columns is-vcentered">
 
           <div className="column is-1 float-left">
-
-          <span class="icon">
-            <a href="http://linkedin.com/in/mustafa-kharnoub/" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </span>
-
-            <span class="icon">
-              <a href="http://github.com/MustafaAnasKH99" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github"></i>
-              </a>
-            </span>
-
-            <span class="icon">
-              <a href="http://gitlab.com/MustafaAnasKH99/" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-gitlab"></i>
-              </a>
-            </span>
-
-            <span class="icon">
-              <a href="http://facebook.com/MustafaAnasKH99" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </span>
-
-            <span class="icon">
-              <a href="http://facebook.com/MustafaAnasKH99" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-medium-m"></i>
-              </a>
-            </span>
-
-            <span class="icon">
-              <a href="http://dev.to/mustafaanaskh99/" target="_blank" rel="noopener noreferrer">
-                <img src={DevLogo} alt="Dev.to" />
-              </a>
-            </span>
-            
+            <Links />
           </div>
+
           <div className="column"></div>
           <div className="column"></div>
           <div className="column is-6">
