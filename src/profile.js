@@ -8,12 +8,10 @@ class Profile extends Component {
     }
     render() { 
         return (
-            <div className="column is-third"> 
-                <div className="profile-image-container">
-                    <figure className="image">
-                        <img src={profile} alt="profile" className="is-rounded" />
-                    </figure>
-                </div>
+            <div className="column is-4"> 
+                <figure className="image is-230x230">
+                    <img src={profile} alt="profile" className="image is-rounded profile-image-container" />
+                </figure>
             </div>
          );
     }
