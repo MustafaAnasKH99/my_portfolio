@@ -7,11 +7,13 @@ class About extends Component {
     }
     render() { 
         return ( 
-            <div className="column">
-              <h1 className="title is-primary">This is Mustafa</h1>
-              <p>I am a Full Stack Developer!</p>
-              <h1 className="subtitle">Hire Me!</h1>
-          </div>
+            <div>
+                <h1 className="title" id="my-profile-name">This is Mustafa</h1>
+                <p>
+                    I am a Full Stack Developer with experience building websites, Progresssing Web Apps, and Content Management Systems
+                </p>
+                <h1 className="subtitle">Hire Me!</h1>
+            </div>
          );
     }
 }

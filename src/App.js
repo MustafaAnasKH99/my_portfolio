@@ -5,6 +5,7 @@ import './main.css';
 
 import Profile from './profile';
 import About from './about';
+import Timer from './timer';
 
 function App() {
   return (
@@ -14,15 +15,24 @@ function App() {
         </nav>
       <section className="hero is-dark">
         <div className="columns is-vcentered">
+
           <div className="column">
 
           </div>
 
-          <About />
-          <Profile />
+          <div className="column is-third">
+            <About />
+            <Timer  />
+          </div>
 
           <div className="column">
 
+          </div>
+          
+          <Profile />
+
+          <div className="column">
+            
           </div>
 
         </div>

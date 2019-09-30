@@ -13,3 +13,13 @@
     padding: 5px;
     border-radius: 50%;
 }
+
+.changing-word{
+    padding: 2px;
+    border-bottom: 2px solid #12a994;
+}
+
+#my-profile-name{
+    font-size: 45px;
+    color: #12a994;
+}

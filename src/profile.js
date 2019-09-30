@@ -8,7 +8,7 @@ class Profile extends Component {
     }
     render() { 
         return (
-            <div className="column"> 
+            <div className="column is-third"> 
                 <div className="profile-image-container">
                     <figure className="image">
                         <img src={profile} alt="profile" className="is-rounded" />
