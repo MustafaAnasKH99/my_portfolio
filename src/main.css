@@ -1,0 +1,15 @@
+.navbar-edited{
+    background-color: #181818;
+}
+
+.navbar-item-edited{
+    background-color: #060607;
+}
+
+.profile-image-container{
+    margin: 20px;
+    border: solid 2px #12a994;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 50%;
+}
