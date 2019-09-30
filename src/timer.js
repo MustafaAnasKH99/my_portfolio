@@ -4,7 +4,7 @@ class Timer extends Component {
     constructor(props) {
       super(props);
         this.state = {
-          do: 'Front End Development'
+          do: 'Javascript'
         };
     }
 
