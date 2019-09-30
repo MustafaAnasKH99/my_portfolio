@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Timer from './timer'
+
 class About extends Component {
     constructor(props) {
         super(props);
@@ -7,12 +9,14 @@ class About extends Component {
     }
     render() { 
         return ( 
-            <div>
-                <h1 className="title" id="my-profile-name">This is Mustafa</h1>
+            <div className="about-container">
+                <h1 className="title" id="my-profile-name">Mustafa,</h1>
+                <h2 className="subtitle"><Timer /></h2>
                 <p className="about-me-par">
-                    I am a Full Stack Developer with experience building websites, Progresssing Web Apps, and Data Management Systems.
+                I am a passionate and self-driven Junior Full-Stack developer. I have fine experience building various web platforms and data management systems. I have deep appreciation and love for the open source communtiy and I try my best to help (Hit me up for any help!)
                 </p>
-                <h1 className="subtitle">Hire Me!</h1>
+                <br />
+                <a className="button is-primary is-large is-outlined" href="mailto:khmostafa4@gmail.com?Subject=Job%20Opportunity" target="_top">Hire Me!</a>
             </div>
          );
     }

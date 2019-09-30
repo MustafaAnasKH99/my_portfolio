@@ -9,9 +9,11 @@ class Profile extends Component {
     render() { 
         return (
             <div className="column is-4"> 
-                <figure className="image is-230x230">
-                    <img src={profile} alt="profile" className="image is-rounded profile-image-container" />
-                </figure>
+                <div className="profile-picture-wrapper">
+                    <figure className="image is-230x230">
+                        <img id="img" src={profile} alt="profile" className="image is-rounded profile-image-container" />
+                    </figure>
+                </div>
             </div>
          );
     }

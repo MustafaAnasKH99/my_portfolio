@@ -28,9 +28,8 @@ class Timer extends Component {
     render() {
       return (
         <div>
-            <p className="about-me-par">
-            I do <span className="changing-word subtitle">{this.state.do}</span>
-            </p>
+            I'm a <span className="changing-word subtitle is-italic">{this.state.do}</span> developer.
+            
         </div>
       );
     }
