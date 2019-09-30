@@ -12,13 +12,11 @@ import Links from './Links'
 function App() {
   return (
     <div className="App">
-        <nav className="navbar navbar-edited" role="navigation" aria-label="main navigation" >
-          <a href="/#" className="navbar-item navbar-item-edited">Something</a>
-        </nav>
-      <section className="hero is-dark main-section-here">
+        
+      <section className="hero main-section-here">
         <div className="columns is-vcentered">
 
-          <div className="column is-1 float-left">
+          <div className="column is-1">
             <Links />
           </div>
 
@@ -30,12 +28,6 @@ function App() {
           </div>
           
           <Profile />
-          <div className="column"></div>
-          <div className="column"></div>
-          <div className="column"></div>
-          <div className="column"></div>
-          <div className="column"></div>
-          <div className="column"></div>
           <div className="column"></div>
 
         </div>

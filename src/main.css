@@ -22,11 +22,12 @@
     padding: 2px;
     border-bottom: 2px solid #12a994;
     font-family: 'Raleway';
+    font-weight: bold;
 }
 
 #my-profile-name{
     font-size: 60px;
-    font-weight: 400px;
+    font-weight: lighter;
     font-family: 'Raleway';
     color: #12a994;
 }
@@ -39,4 +40,20 @@
 
 .float-this-left{
     float: left;
+}
+
+span > a{
+    color: #060607;
+    width: 30px;
+}
+
+span > a:hover{
+    color: #12a994;
+    width: 30px;
+}
+
+.icon{
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
 }
