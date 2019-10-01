@@ -28,7 +28,7 @@ const Links = () => {
             </span>
 
             <span className="icon">
-              <a href="http://facebook.com/MustafaAnasKH99" target="_blank" rel="noopener noreferrer">
+              <a href="https://medium.com/@khmostafa4" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-medium-m"></i>
               </a>
             </span>
