@@ -14,13 +14,15 @@ class Projects extends Component {
     render() { 
         let projects = [
             {
-                link: 'https://github.com/MustafaAnasKH99/Pure-JS-Form', 
+                code_link: 'https://github.com/MustafaAnasKH99/Pure-JS-Form', 
                 image: form_image, 
+                online_link: 'https://mustafaanaskh99.gitlab.io/javascript-form/',
                 title: 'Data collecting form developed with HTML, CSS, and JS with a table displaying a summary of the collected data.'
             },
             {
-                link: 'https://github.com/MustafaAnasKH99/Responsive-HTML-CSS-template', 
+                code_link: 'https://github.com/MustafaAnasKH99/Responsive-HTML-CSS-template', 
                 image: portfolio_image, 
+                online_link: 'https://mustafaanaskh99.gitlab.io/respon/',
                 title: 'Responsive one page portfolio written with HTML and designed with pure CSS'
             },
         ]
@@ -41,8 +43,8 @@ class Projects extends Component {
                             </div>
                             </div>
                             <footer className="card-footer">
-                            <a href={e.link} className="card-footer-item">Go to Code</a>
-                            <a href={e.link} className="card-footer-item">Browse deployed</a>
+                            <a href={e.code_link} className="card-footer-item" target="_blank" rel="noopener noreferrer">Go to Code</a>
+                            <a href={e.online_link} className="card-footer-item" target="_blank" rel="noopener noreferrer">Browse deployed</a>
                             </footer>
                         </div>
                     </div>
