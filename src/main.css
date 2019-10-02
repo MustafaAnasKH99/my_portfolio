@@ -43,6 +43,7 @@
     font-weight: 300;
     font-size: 1.25rem;
     margin-top: 25px;
+    text-align: justify;
 }
 
 span > a{
@@ -89,4 +90,36 @@ svg{
 
 .about-container{
     margin-left: 10px;
+}
+
+.card-par-content{
+    text-align: justify;
+}
+
+.main-columns-wrapper{
+    align-content: center;
+    justify-content: center;
+}
+
+.card-image-edited{
+    max-width: 400px;
+    margin: 15px;
+}
+
+.card-content-edited{
+    max-width: 400px;
+}
+
+.card-edited{
+    margin: 15px;
+}
+
+.projects-wapper{
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px){
+    .card-edited{
+        margin: 30px;
+    }
 }
