@@ -3,10 +3,10 @@ import React from 'react'
 import './bulma.css'
 import './main.css'
 
-import Profile from './profile'
-import About from './about'
-import Links from './Links'
-import Projects from './Projects'
+import Profile from './components/profile'
+import About from './components/about'
+import Links from './components/Links'
+import Projects from './components/Projects'
 
 
 function App() {

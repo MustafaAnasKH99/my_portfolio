@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-const profile = require('./profile.jpg');
+const profile = require('../assets/profile.jpg');
 
 class Profile extends Component {
     constructor(props) {
