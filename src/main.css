@@ -14,6 +14,14 @@
     border-radius: 50%;
 }
 
+.profile-figure-wrapper{
+    align-self: center;
+}
+
+.profile-picture-wrapper{
+    margin: 0 auto;
+}
+
 .main-section-here{
     box-sizing: border-box;
 }
@@ -122,4 +130,8 @@ svg{
     .card-edited{
         margin: 30px;
     }
+}
+
+.about-me-wrapper{
+    justify-content: center;
 }

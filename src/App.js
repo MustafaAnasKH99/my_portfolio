@@ -17,7 +17,7 @@ function App() {
 
           <div className="column columns">
             <div className="column is-full">
-            <div className="column columns">
+            <div className="column columns about-me-wrapper">
               <div className="column is-5">
                 <About />
               </div>
