@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 
-const form_image = require('../assets/FORM.png');
-const sheetjs_img = require('../assets/sheetjs.png');
-const portfolio_image = require('../assets/CSS Portfolio.png');
+const form_image = require('../assets/FORM-2.png');
+const sheetjs_img = require('../assets/sheetjs-2.png');
+const portfolio_image = require('../assets/CSS Portfolio-2.webp');
+const graphql_image = require('../assets/graphql_image.jpeg')
 
 
 class Projects extends Component {
@@ -19,6 +20,15 @@ class Projects extends Component {
                 image: form_image, 
                 online_link: 'https://mustafaanaskh99.gitlab.io/javascript-form/',
                 title: 'Data collecting form developed with HTML, CSS, and JS with a table displaying a summary of the collected data.'
+            },
+            {
+                code_link: 'https://github.com/MustafaAnasKH99/CRUD-Application-and-A-GraphQL-API/blob/master/README.md', 
+                image: graphql_image, 
+                online_link: 'https://jolly-swirles-f29573.netlify.com/',
+                title: `
+                GraphQL API and Client developed with React and Nodejs. The user is able to CRUD new categories 
+                and products linking each product to a certain category.
+                `
             },
             {
                 code_link: 'https://github.com/MustafaAnasKH99/Sheets-DOM-Manipulation', 

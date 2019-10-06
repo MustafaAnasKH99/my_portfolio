@@ -16,7 +16,7 @@ class About extends Component {
                 I am a passionate and self-driven Junior Full-Stack developer. I have fine experience building various web platforms and data management systems. I have deep appreciation and love for the open source communtiy and I try my best to help (Hit me up for any help!)
                 </p>
                 <br />
-                <a className="button is-primary is-large is-outlined" href="mailto:khmostafa4@gmail.com?Subject=Job%20Opportunity" target="_top">Hire Me!</a>
+                <a className="button is-primary is-large is-outlined" href="mailto:me@mustafaanas.com?Subject=Job%20Opportunity" target="_top">Hire Me!</a>
             </div>
          );
     }
