@@ -15,6 +15,12 @@ const Links = () => {
               </a>
             </span>
 
+            <span className="icon"> 
+              <a href="https://dev.to/mustafaanaskh99" target="_blank" rel="noopener noreferrer">
+                <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Mustafa Anas's DEV Profile" height="30" width="30" />
+              </a>
+            </span>
+
             <span className="icon">
               <a href="http://gitlab.com/MustafaAnasKH99/" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-gitlab"></i>
