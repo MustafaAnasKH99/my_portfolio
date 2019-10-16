@@ -1,4 +1,6 @@
 import React from 'react'
+import ApolloClient from 'apollo-boost'
+import { ApolloProvider } from 'react-apollo'
 
 import './bulma.css'
 import './main.css'
@@ -8,9 +10,13 @@ import About from './components/about'
 import Links from './components/Links'
 import Projects from './components/Projects'
 
+const client = new ApolloClient({
+  uri: 'https://mysterious-dusk-78499.herokuapp.com/bemyguest'
+})
 
 function App() {
   return (
+    <ApolloProvider client={client}>
     <div className="App">
       <section className="hero main-section-here">
         <div className="columns main-columns-wrapper">
@@ -70,6 +76,7 @@ function App() {
   
       </section>
     </div>
+    </ApolloProvider>
   );
 }
 

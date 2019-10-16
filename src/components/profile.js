@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import { graphql } from 'react-apollo';
+import * as compose from 'lodash.flowright';
+
+import { increment } from '../Queries/visitsIncrementor'
+
 const profile = require('../assets/profile.jpg');
 
 class Profile extends Component {
@@ -6,6 +11,11 @@ class Profile extends Component {
         super(props);
         this.state = {  }
     }
+
+    componentDidMount(){
+        this.props.increment({})
+    }
+
     render() { 
         return (
                 <div className="profile-figure-wrapper">
@@ -17,4 +27,6 @@ class Profile extends Component {
     }
 }
  
-export default Profile;
+export default compose(
+    graphql(increment, {name: "increment"})
+)(Profile)
