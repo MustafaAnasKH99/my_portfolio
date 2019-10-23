@@ -8,4 +8,12 @@ const increment = gql`
     }
 `
 
-export { increment }
+const getTime = gql`
+    mutation{
+        createTime{
+            time
+        }
+    }
+`
+
+export { increment, getTime }

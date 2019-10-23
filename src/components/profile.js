@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { graphql } from 'react-apollo';
 import * as compose from 'lodash.flowright';
 
-import { increment } from '../Queries/visitsIncrementor'
+import { increment, getTime } from '../Queries/visitsIncrementor'
 
 const profile = require('../assets/profile.jpg');
 
@@ -14,6 +14,7 @@ class Profile extends Component {
 
     componentDidMount(){
         this.props.increment({})
+        this.props.getTime({})
     }
 
     render() { 
@@ -28,5 +29,6 @@ class Profile extends Component {
 }
  
 export default compose(
-    graphql(increment, {name: "increment"})
+    graphql(increment, {name: "increment"}),
+    graphql(getTime, {name: "getTime"}),
 )(Profile)
