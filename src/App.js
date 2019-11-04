@@ -21,39 +21,9 @@ function App() {
     <div className="App">
       <section className="hero main-section-here">
         <div className="columns main-columns-wrapper">
-
           <div className="column columns">
             <div className="column is-full">
             <div className="column columns about-me-wrapper">
-              <div className="column is-5">
-                <About />
-              </div>
-
-              <div className="column is-1">
-                <Links />
-              </div>
-
-
-              <Profile />
-              </div>
-              <Projects />
-              <div>
-
-                <div className="message">
-                  <h2 className="message-header"><strong>I try to share the knowledge I have, so I write</strong></h2>
-                  <p className="message-body">
-                  <Articles className="column is-1" />
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          {/* <div className="column is-12 columns">
-            <div className="column is-full columns">
-              <div className="column is-full">
-
                 <div className="column is-5">
                   <About />
                 </div>
@@ -62,26 +32,22 @@ function App() {
                   <Links />
                 </div>
 
-          
-              <Profile />
+                <Profile />
+
+                </div>
+                  <Projects />
+                <div>
+
+                <div className="message">
+                  <h2 className="message-header"><strong>I try to share the knowledge I have, so I write</strong></h2>
+                  <div className="message-body">
+                  <Articles className="column is-1" />
+                  </div>
+                </div>
               </div>
-
             </div>
-            <Projects />
-          </div> */}
-
-        
-
+          </div>
         </div>
-          {/* <section className="projects-section">
-            <div className="columns">
-            <div className="column"></div>
-              <Projects />
-            <div className="column"></div>
-            </div>
-          </section> */}
-
-  
       </section>
     </div>
     </ApolloProvider>

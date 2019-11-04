@@ -10,6 +10,8 @@ const Articles = () => {
     }, [])
 
     if(articles){
+        console.log('articles.length')
+        console.log(articles.length)
         return ( 
             <section>
                     <div className="tile is-ancestor">
@@ -17,7 +19,6 @@ const Articles = () => {
                             <div className="tile is-parent">
                                 {
                                     articles.map((article, index) => {
-                                        console.log(article)
                                         return(
                                             <div className="tile is-parent drop" key={index}>
                                                 <article className="tile is-child blue post">

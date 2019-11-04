@@ -12,9 +12,9 @@ class Projects extends Component {
     render() { 
         return(
             <div className="columns is-multiline">
-            {projects.map(e => {
+            {projects.map((e, index) => {
                 return (
-                    <div className="column is-one-third">
+                    <div className="column is-one-third" key={index}>
                         <div className="card card-edited">
                         <header className="card-header">
                             <a href={e.code_link} className="card-footer-item" target="_blank" rel="noopener noreferrer">Go to Code</a>
