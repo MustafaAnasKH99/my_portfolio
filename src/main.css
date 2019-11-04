@@ -135,3 +135,13 @@ svg{
 .about-me-wrapper{
     justify-content: center;
 }
+
+.article-image-wrapper{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.customized-dropdown-button{
+    width: 100%;
+    margin: 0 auto;
+}

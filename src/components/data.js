@@ -1,5 +1,5 @@
-const form_image = require('../assets/FORM-2.png');
-const sheetjs_img = require('../assets/sheetjs-2.png');
+const form_image = require('../assets/form_image.jpg');
+const sheetjs_img = require('../assets/sheetjs.jpg');
 const portfolio_image = require('../assets/CSS Portfolio-2.webp');
 const graphql_image = require('../assets/graphql_image.jpeg');
 const chatapp_image = require('../assets/chatapp.png');

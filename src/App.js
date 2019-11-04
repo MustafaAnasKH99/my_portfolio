@@ -9,6 +9,7 @@ import Profile from './components/profile'
 import About from './components/about'
 import Links from './components/Links'
 import Projects from './components/Projects'
+import Articles from './components/articles'
 
 const client = new ApolloClient({
   uri: 'https://mysterious-dusk-78499.herokuapp.com/bemyguest'
@@ -35,8 +36,15 @@ function App() {
 
               <Profile />
               </div>
-              <div className="columns projects-wapper">
-                <Projects />
+              <Projects />
+              <div>
+
+                <div className="message">
+                  <h2 className="message-header"><strong>I try to share the knowledge I have, so I write</strong></h2>
+                  <p className="message-body">
+                  <Articles className="column is-1" />
+                  </p>
+                </div>
               </div>
             </div>
           </div>

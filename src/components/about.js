@@ -13,12 +13,10 @@ class About extends Component {
                 <h1 className="title" id="my-profile-name">Mustafa,</h1>
                 <h2 className="subtitle"><Timer /></h2>
                 <p className="about-me-par">
-                I am a passionate and self-driven Junior Full-Stack developer. I have experience building various web platforms and systems ranging from chatapps to learning/contement management systems. I have deep appreciation and love for the open source communtiy and I try my best to help (Hit me up for any help!)
+                I am a passionate and self-driven Junior Full-Stack developer. I have experience building various web platforms and systems ranging from chatapps to learning/contement management systems. I have deep appreciation and love for the open source communtiy and I try my best to help (Hit me up in you need any!)
                 </p>
                 <br />
-                <h2>Javascript is my superpower</h2>
-                <br />
-                <a className="button is-primary is-large is-outlined" href="mailto:me@mustafaanas.com?Subject=Job%20Opportunity" target="_top">Hire Me!</a>
+                <a className="button is-primary is-large is-outlined" href="mailto:me@mustafaanas.com?Subject=Job%20Opportunity" target="_top"><strong>Hire Me!</strong></a>
             </div>
          );
     }
