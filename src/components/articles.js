@@ -16,11 +16,11 @@ const Articles = () => {
             <section>
                     <div className="tile is-ancestor">
                         <div className="tile is-horizontal">
-                            <div className="tile is-parent">
+                            <div className="tile is-parent columns is-multiline">
                                 {
                                     articles.map((article, index) => {
                                         return(
-                                            <div className="tile is-parent drop" key={index}>
+                                            <div className="tile is-parent drop column is-one-third" key={index}>
                                                 <article className="tile is-child blue post">
                                                     <h2 className="is-primary"><strong> {article.title} </strong></h2>
                                                     

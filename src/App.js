@@ -36,15 +36,13 @@ function App() {
 
                 </div>
                   <Projects />
-                <div>
 
-                <div className="message">
-                  <h2 className="message-header"><strong>I try to share the knowledge I have, so I write</strong></h2>
-                  <div className="message-body">
-                  <Articles className="column is-1" />
+                  <div className="message">
+                    <h2 className="message-header"><strong>I try to share the knowledge I have, so I write</strong></h2>
+                    <div className="message-body">
+                    <Articles className="column is-1" />
+                    </div>
                   </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
