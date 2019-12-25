@@ -4,6 +4,8 @@ import { ApolloProvider } from 'react-apollo'
 
 import './bulma.css'
 import './main.css'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 import Profile from './components/profile'
 import About from './components/about'
