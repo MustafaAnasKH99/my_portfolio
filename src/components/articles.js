@@ -4,18 +4,34 @@ import Flickity from 'react-flickity-component'
 import './flickity.css'
 
 const flickityOptions = {
-    // initialIndex: 0
+    initialIndex: 0
+}
+
+const compare = (a, b) => {
+    const bandA = a.positive_reactions_count;
+    const bandB = b.positive_reactions_count;
+
+    let comparison = 0;
+    if (bandA > bandB) {
+        comparison = 1;
+    } else if (bandA < bandB) {
+        comparison = -1;
+    }
+    return comparison*-1;
 }
 
 const Articles = () => {
     const [articles, setArticles] = useState()
 
-    useEffect(() =>{
+    useEffect((articles) =>{
         axios.get('https://dev.to/api/articles?username=mustafaanaskh99')
-        .then(e => setArticles(e.data))
+        .then(e =>{
+            setArticles(e.data)
+        } )     
     }, [])
-
     if(articles){
+        let sortedArticles = [];
+        sortedArticles = articles.sort(compare)
         return ( 
             <section>
                 <Flickity
@@ -26,7 +42,8 @@ const Articles = () => {
                     reloadOnUpdate // default false
                 >           
                     {
-                        articles.map((article, index) => {
+                        
+                        sortedArticles.map((article, index) => {
                             return(
                                 <div className="tile is-parent drop column is-one-third" key={index}>
                                     <article className="tile is-child blue post">
