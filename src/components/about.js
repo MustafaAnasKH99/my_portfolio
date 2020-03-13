@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Timer from './timer'
 
+
 class About extends Component {
     constructor(props) {
         super(props);

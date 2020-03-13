@@ -12,6 +12,7 @@ import About from './components/about'
 import Links from './components/Links'
 import Projects from './components/Projects'
 import Articles from './components/articles'
+import Maillist from './components/mail'
 
 const client = new ApolloClient({
   uri: 'https://mysterious-dusk-78499.herokuapp.com/bemyguest'
